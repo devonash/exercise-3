@@ -49,6 +49,7 @@ a{
 .navigation ul{
   padding: 0;
   li{
+    display: block;
     list-style-type: none;
     &:first-child a{
     }
@@ -132,6 +133,15 @@ span{
 
 } //max-width media-query
 
+@media only screen and (min-width: 25em){
+    .navigation ul{
+    padding: 0;
+    li{
+      display: block;
+    }
+  }
+}
+
 //reset the page when desktop, even if nav is toggled open
 @media only screen and (min-width: 60em){
   .toggle-btn,
@@ -143,6 +153,14 @@ span{
     background-color: $white;
     padding: 1em;
   }
+  
+  .navigation ul{
+    text-align: right;
+    li{
+      display: inline-block;
+    }
+  }
+
 }
 
 //show navigation on screen when there is no JS

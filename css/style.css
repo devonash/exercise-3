@@ -404,6 +404,7 @@ a:hover {
 }
 
 .navigation ul li {
+  display: block;
   list-style-type: none;
 }
 
@@ -417,7 +418,7 @@ a:hover {
 }
 
 .navigation ul a:hover {
-  color: #00b300;
+  color: #00cc44;
 }
 
 .toggle-btn,
@@ -481,6 +482,15 @@ a:hover {
   }
 }
 
+@media only screen and (min-width: 25em) {
+  .navigation ul {
+    padding: 0;
+  }
+  .navigation ul li {
+    display: block;
+  }
+}
+
 @media only screen and (min-width: 60em) {
   .toggle-btn,
   .close-btn {
@@ -489,6 +499,12 @@ a:hover {
   .h1-text {
     background-color: #fff;
     padding: 1em;
+  }
+  .navigation ul {
+    text-align: right;
+  }
+  .navigation ul li {
+    display: inline-block;
   }
 }
 
