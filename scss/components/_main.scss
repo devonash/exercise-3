@@ -62,7 +62,8 @@ a{
     text-align: center;
     font-size: 300;
     &:hover{
-      color: $dif-green;
+      color: $white;
+      background-color: $text-color;
     }
   }
 }

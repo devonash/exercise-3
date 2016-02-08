@@ -418,7 +418,8 @@ a:hover {
 }
 
 .navigation ul a:hover {
-  color: #00cc44;
+  color: #fff;
+  background-color: #222;
 }
 
 .toggle-btn,
