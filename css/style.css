@@ -362,6 +362,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: #80ffaa;
 }
 
 *, *:before, *:after {
@@ -408,7 +409,7 @@ header {
 
 .toggle-btn,
 .close-btn {
-  color: #222;
+  color: #fff;
   text-decoration: none;
   height: 40px;
   width: 40px;
@@ -416,7 +417,7 @@ header {
 
 .toggle-btn:before,
 .close-btn:before {
-  border: 1px solid #ccc;
+  border: 2px solid #222;
   display: inline-block;
   padding: 13px 11px;
   height: 40px;
@@ -473,7 +474,7 @@ header {
     display: none;
   }
   .h1-text {
-    background-color: #80ffaa;
+    background-color: #fff;
     padding: 1em;
   }
 }
