@@ -391,6 +391,14 @@ header {
   top: 0;
 }
 
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: black;
+}
+
 .navigation ul {
   padding: 0;
 }
@@ -405,6 +413,11 @@ header {
   text-decoration: none;
   color: #222;
   text-align: center;
+  font-size: 300;
+}
+
+.navigation ul a:hover {
+  color: #00b300;
 }
 
 .toggle-btn,

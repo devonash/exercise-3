@@ -39,6 +39,13 @@ header {
   top: 0;
 }
 
+a{
+  color: $white;
+  &:hover {
+    color: black;
+  }
+}
+
 .navigation ul{
   padding: 0;
   li{
@@ -52,6 +59,10 @@ header {
     text-decoration: none;
     color: $text-color;
     text-align: center;
+    font-size: 300;
+    &:hover{
+      color: $dif-green;
+    }
   }
 }
 
